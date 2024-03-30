@@ -22,3 +22,11 @@
 框架：无
 
 数据库：MYSQL 5.7.26
+
+### 系统功能
+![image](https://github.com/heting791/mall-rear/assets/83156177/89b08377-d159-4757-9c92-658b8a886153)
+
+### 接口信息（示例）
+![image](https://github.com/heting791/mall-rear/assets/83156177/1ea30da4-f7d5-4c89-9f09-b8af0f39c28e)
+
+![image](https://github.com/heting791/mall-rear/assets/83156177/ec6b1cde-1c4b-499b-a1a4-78e7574d90c2)
