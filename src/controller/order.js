@@ -18,7 +18,7 @@ const getOrderList = (userid, status) => {
 const getOrderDetails = (id) => {
 
 	let sql =
-		`SELECT orders.id, orders.createtime, orders.orderid, orders.price, orders.count, orders.ttprice, orders.status, orders.args, orders.addressid, orders.delivery, orders.remark, products.image, products.title, address.name, address.area, address.deatailad, address.phoneprefix, address.phone FROM orders LEFT JOIN user ON orders.userid= user.id LEFT JOIN products ON orders.productid=products.id LEFT JOIN address ON orders.addressid=address.id WHERE orders.id='${id}'`;
+		`SELECT orders.id, orders.createtime, orders.orderid, orders.productid, orders.price, orders.count, orders.ttprice, orders.status, orders.args, orders.addressid, orders.delivery, orders.remark, products.image, products.title, address.name, address.area, address.deatailad, address.phoneprefix, address.phone FROM orders LEFT JOIN user ON orders.userid= user.id LEFT JOIN products ON orders.productid=products.id LEFT JOIN address ON orders.addressid=address.id WHERE orders.id='${id}'`;
 
 	return exexSQL(sql);
 }
